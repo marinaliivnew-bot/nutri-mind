@@ -1,0 +1,24 @@
+# === Чужие исходники, личные и клиентские материалы — НЕ публикуем ===
+Nutri Agent исходники/
+ChatExport_2026-06-26/
+
+# Встроенные в прототип чужие методички (PDF)
+nutri-agent/assets/methods/*.pdf
+
+# Любые офисные документы — частая причина утечки чувствительных данных
+*.docx
+*.xlsx
+*.pdf
+
+# Технический мусор / черновики в корне
+/index.html
+/test.txt
+.agents/
+
+# Системное
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+.env
+.env.*
